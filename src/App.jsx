@@ -8,7 +8,7 @@ function App() {
   return (
     <>
 <div>
-  <h1>Productos</h1>
+  <h1>Glamour-A</h1>
   
   <ImtemListContainer saludo = "Propo enviada desde App" /> 
   <EjemploContador />
