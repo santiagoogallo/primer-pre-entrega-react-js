@@ -1,6 +1,8 @@
 
 import ImtemListContainer from "./components/ItemListContainer"
 import EjemploContador from "./components/EjemploContador"
+import NavBar from "./components/NavBar"
+import CartWidget from "./components/CartWidget"
 import './App.css'
 
 function App() {
@@ -8,10 +10,12 @@ function App() {
   return (
     <>
 <div>
-  <h1>Glamour-A</h1>
   
+  
+  <NavBar />
   <ImtemListContainer saludo = "Propo enviada desde App" /> 
   <EjemploContador />
+  <CartWidget />
 </div>
 
     </>
