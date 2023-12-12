@@ -1,5 +1,6 @@
 
 import ImtemListContainer from "./components/ItemListContainer"
+import EjemploContador from "./components/EjemploContador"
 import './App.css'
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
     <>
 <div>
   <h1>Productos</h1>
-  <p>Hola mundo</p>
+  
   <ImtemListContainer saludo = "Propo enviada desde App" /> 
+  <EjemploContador />
 </div>
 
     </>

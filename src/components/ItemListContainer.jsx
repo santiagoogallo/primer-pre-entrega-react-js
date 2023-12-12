@@ -2,7 +2,7 @@ const ItemListContainer = () => {
 
     return(
         <div>
-            <p>Saludos</p>
+            <p></p>
         </div>
     )
 }
